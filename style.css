@@ -1,0 +1,184 @@
+:root {
+  --bh-primary: #26ffdf;
+  --bh-secondary: #818181;
+  --bh-dark: #242a35;
+  --bh-black: #131313;
+}
+
+
+.bg-primary{
+  background-color: var(--bh-primary)!important;
+}
+.bg-secondary{
+  background-color: var(--bh-secondary)!important;
+}
+.bg-dark{
+  background-color: var(--bh-dark)!important;
+}
+
+
+.fa-star{
+  color: gold;
+}
+.icon-bg {
+  color: var(--bh-secondary);
+}
+.icon-border{
+  color: white;
+}
+
+
+#user{
+  max-height: 10vh;
+}
+
+header {
+  max-height: 100;
+}
+
+body {
+  background-color: var(--bh-secondary);
+}
+
+footer {
+  height: 10vh;
+}
+
+.text-align-center{
+  vertical-align: middle;
+}
+
+.nav-bg{
+  background-color: var(--bh-black);
+  color: var(--bh-secondary);
+}
+
+.nav-link {
+  color:var(--bh-secondary);
+}
+a:hover {
+  color: var(--bh-primary) !important;
+}
+.navbar-toggler:focus {
+  border: 2px solid var(--bh-primary)!important;
+  box-shadow: none;
+  
+}
+
+a {
+  color:var(--bh-secondary)!important;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.greenmangaming.com/b8f892da464a4753b8478cc5ae0101d7/8b8cfc2161e249d99ff10cd81be43a89.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.img-container{
+  width: 315px;
+  height: 500px;
+  object-fit: cover;
+  border: 8px solid var(--bh-primary);
+}
+
+
+
+.card-join {
+  max-width: 18rem;
+  padding: 1em;
+}
+
+.card-perks{
+  transform: translateY(5rem);
+  max-width: 30rem;
+  padding: 1em;
+}
+
+.card {
+  min-height: 6rem;
+}
+
+.move {
+  transform: translateY(2rem);
+}
+
+.bg-filter {
+  background-color: #3a3a3a!important;
+  backdrop-filter: blur(10px);
+}
+
+.font-size {
+  font-size: 10px;
+}
+
+.side-bar{
+  border-left: 10px solid var(--bh-primary);
+}
+
+.site-font{
+  font-family: 'Bebas Neue';
+}
+.site-font-two {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.bottomnav {
+  overflow: hidden;
+  background-color: none;
+}
+
+.bottomnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 2px;
+}
+
+.bottomnav a:hover {
+  background-color: var(--bh-secondary);
+}
+
+.bottomnav .search-container {
+  float: left;
+}
+
+.bottomnav input[type=text] {
+  padding: 6px;
+  margin-top: 10px;
+  font-size: 17px;
+  border: none;
+}
+
+.bottomnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 10px;
+  margin-right: 16px;
+  background: var(--bh-secondary);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.bottomnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media only screen and (max-width: 768px){
+  #about{display: none};
+}
+@media only screen and (max-width: 768px){
+  .card-perks{
+    transform: none};
+}
+@media only screen and (max-width: 768px){
+  .move{
+    transform: none};
+}
